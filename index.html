@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>National Moot Court Competition | Law Society</title>
+    <style>
+      /* Reset and Base Styles */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+
+      body {
+        color: #333;
+        line-height: 1.6;
+        background-color: #f9f9f9;
+      }
+
+      /* Header / Navigation */
+      header {
+        background-color: #0f172a; /* Deep Navy */
+        color: #ffffff;
+        padding: 1.5rem 2rem;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      }
+
+      .header-container {
+        max-width: 1100px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .logo {
+        font-size: 1.4rem;
+        font-weight: 700;
+        letter-spacing: 1px;
+        color: #e2e8f0;
+      }
+
+      .logo span {
+        color: #d4af37; /* Metallic Gold */
+      }
+
+      /* Hero Section */
+      .hero {
+        background:
+          linear-gradient(rgba(15, 23, 42, 0.85), rgba(15, 23, 42, 0.95)),
+          url("https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=1920&q=80")
+            no-repeat center center/cover;
+        color: #fff;
+        padding: 6rem 2rem;
+        text-align: center;
+      }
+
+      .hero-content {
+        max-width: 800px;
+        margin: 0 auto;
+      }
+
+      .hero h1 {
+        font-size: 2.8rem;
+        margin-bottom: 1rem;
+        color: #ffffff;
+        font-weight: 800;
+      }
+
+      .hero p {
+        font-size: 1.2rem;
+        margin-bottom: 2.5rem;
+        color: #cbd5e1;
+      }
+
+      /* Call to Action Button */
+      .btn-primary {
+        display: inline-block;
+        background-color: #d4af37; /* Gold */
+        color: #0f172a;
+        padding: 0.8rem 2rem;
+        font-size: 1.1rem;
+        font-weight: 600;
+        text-decoration: none;
+        border-radius: 4px;
+        transition: all 0.3s ease;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+      }
+
+      .btn-primary:hover {
+        background-color: #f3cd57;
+        transform: translateY(-2px);
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+      }
+
+      /* About Section */
+      .about {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 5rem 2rem;
+        text-align: center;
+      }
+
+      .about h2 {
+        font-size: 2.2rem;
+        color: #0f172a;
+        margin-bottom: 1.5rem;
+        position: relative;
+        display: inline-block;
+      }
+
+      .about h2::after {
+        content: "";
+        display: block;
+        width: 50%;
+        height: 3px;
+        background-color: #d4af37;
+        margin: 0.5rem auto 0 auto;
+      }
+
+      .about p {
+        font-size: 1.1rem;
+        color: #475569;
+        margin-bottom: 1.5rem;
+        text-align: justify;
+      }
+
+      /* Footer */
+      footer {
+        background-color: #0f172a;
+        color: #94a3b8;
+        text-align: center;
+        padding: 2rem;
+        font-size: 0.9rem;
+        border-top: 1px solid #1e293b;
+      }
+
+      /* Responsive Design Media Queries */
+      @media (max-width: 768px) {
+        .hero h1 {
+          font-size: 2rem;
+        }
+
+        .hero p {
+          font-size: 1rem;
+        }
+
+        .about {
+          padding: 3rem 1.5rem;
+        }
+
+        .about h2 {
+          font-size: 1.8rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="header-container">
+        <div class="logo">LAW<span>SOC</span> MOOT</div>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Annual National Moot Court Competition</h1>
+        <p>
+          Argue. Advocate. Achieve. Join the nation's premier legal minds in
+          analyzing complex, real-world litigation dynamics.
+        </p>
+        <a
+          href="#register"
+          class="btn-primary"
+          onclick="alert('Registration form portal mock activated!')"
+          >Register Now</a
+        >
+      </div>
+    </section>
+
+    <section class="about">
+      <h2>About the Competition</h2>
+      <p>
+        Hosted by the University Law Society, the Annual National Moot Court
+        Competition stands as our flagship academic advocacy tournament.
+        Designed to test structural reasoning, clarity of thought, and
+        high-pressure legal interpretation, this year’s case problem challenges
+        contingents to navigate unprecedented intersections of Constitutional
+        Law and emerging technological landscapes.
+      </p>
+      <p>
+        Participants will present their arguments before panels of distinguished
+        legal practitioners, academic jurists, and sitting judges. Beyond the
+        courtroom simulation, the event provides a critical networking arena for
+        students looking to benchmark their legal research skills against elite
+        peers nationally.
+      </p>
+    </section>
+
+    <footer>
+      <p>&copy; 2026 University Law Society. All Rights Reserved.</p>
+    </footer>
+  </body>
+</html>
